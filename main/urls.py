@@ -47,5 +47,6 @@ urlpatterns = [
     
 
     #apps that
-    path("users/", include("users.urls"))
+    path("users/", include("users.urls")),
+    path("flight/", include("flight.urls"))
 ]
